@@ -8,6 +8,102 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <title>My Playlist</title>
+  <style>
+    body {
+      background-color: rgb(204, 204, 204);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    /* Playlist Box */
+    .playlist-box {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
+      margin: 10px auto;
+      padding: 10px;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      list-style-type: none;
+      margin: 8px 0;
+      text-align: center;
+    }
+
+    a {
+      text-decoration-line: none;
+      color: #2a7ae2;
+      font-weight: bold;
+    }
+
+    /* Player Boxes */
+    .player-section {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 15px;
+      width: 360px;
+      margin: 15px auto;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    video, audio {
+      width: 100%;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Headings -->
+  <h1>My Playlist</h1>
+
+  <!-- Songs Playlist -->
+  <div class="playlist-box">
+    <ul>
+      <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 1</a></li>
+      <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 2</a></li>
+      <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 3</a></li>
+      <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 4</a></li>
+      <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 5</a></li>
+    </ul>
+  </div>
+
+  <!-- Now Playing -->
+  <h2>Now Playing...</h2>
+
+  <!-- Video Player -->
+  <div class="player-section">
+    <video controls>
+      <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+  </div>
+
+  <!-- MP3 Songs -->
+  <h2>MP3 songs</h2>
+
+  <!-- Audio Player -->
+  <div class="player-section">
+    <audio controls>
+      <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
