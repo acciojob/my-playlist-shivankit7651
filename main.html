@@ -50,11 +50,10 @@
     }
 
     /* Player Boxes */
-    .player-section {
-      background: #fff;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      padding: 15px;
+    .player_one, .player_two {
+      background-color: rgb(255, 255, 255);
+       padding: 15px;
+      border-radius: 10px;
       width: 360px;
       margin: 15px auto;
       text-align: center;
@@ -86,7 +85,7 @@
   <h2>Now Playing...</h2>
 
   <!-- Video Player -->
-  <div class="player-section">
+  <div class="player_one">
     <video controls>
       <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
       Your browser does not support the video element.
@@ -97,7 +96,7 @@
   <h2>MP3 songs</h2>
 
   <!-- Audio Player -->
-  <div class="player-section">
+  <div class="player_two">
     <audio controls>
       <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
       Your browser does not support the audio element.
